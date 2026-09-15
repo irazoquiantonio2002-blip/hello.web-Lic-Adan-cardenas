@@ -85,15 +85,21 @@ textarea {
 }
 
 .loader-bulb {
-  width: 72px;
-  height: 72px;
+  width: 88px;
+  height: 88px;
   display: grid;
   place-items: center;
   border: 1px solid var(--line);
   border-radius: 50%;
   color: var(--gold-2);
-  font-size: 28px;
+  background: #0b1016;
   box-shadow: 0 0 40px rgba(214, 179, 92, 0.18);
+}
+
+.loader-bulb img {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
 }
 
 .loader-bar {
@@ -167,9 +173,9 @@ textarea {
 }
 
 .nav-logo-icon img {
-  width: 78px;
-  max-width: none;
-  transform: translateY(2px);
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
 }
 
 .nav-logo-copy {
@@ -953,10 +959,10 @@ section {
 }
 
 .led-panel-body {
-  width: min(440px, 82%);
+  width: min(520px, 88%);
   display: grid;
   place-items: center;
-  padding: 22px;
+  padding: 14px;
 }
 
 .led-panel-body img {
@@ -1146,6 +1152,24 @@ section {
   font-weight: 800;
 }
 
+.contact-map {
+  min-height: 360px;
+  margin-top: 24px;
+  overflow: hidden;
+  border: 1px solid var(--line-dark);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: rgba(5, 7, 10, 0.72);
+}
+
+.contact-map iframe {
+  display: block;
+  width: 100%;
+  height: 360px;
+  border: 0;
+  filter: saturate(0.95) contrast(1.04);
+}
+
 .contact-form-wrap {
   background: rgba(255, 250, 240, 0.96);
   color: #14120d;
@@ -1237,7 +1261,7 @@ footer {
 .footer-logo img {
   width: 38px;
   height: 38px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
   background: #0a0e13;
 }
@@ -1441,6 +1465,12 @@ footer {
 
   .panel-scene {
     min-height: 390px;
+  }
+
+  .contact-map,
+  .contact-map iframe {
+    min-height: 320px;
+    height: 320px;
   }
 
   .contact-info,
