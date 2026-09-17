@@ -91,7 +91,10 @@ function animateCounter(el) {
     const progress = Math.min((now - start) / duration, 1);
     const eased = 1 - Math.pow(1 - progress, 3);
     const current = Math.round(target * eased);
-    el.textContent = `${new Intl.NumberFormat("es-MX").format(current)}${suffix}`;
+    const value = el.dataset.format === "plain"
+      ? String(current)
+      : new Intl.NumberFormat("es-MX").format(current);
+    el.textContent = `${value}${suffix}`;
 
     if (progress < 1) {
       requestAnimationFrame(tick);

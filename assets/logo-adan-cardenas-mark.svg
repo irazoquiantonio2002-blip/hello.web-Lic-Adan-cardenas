@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">AC</title>
+  <desc id="desc">Marca de Lic. Adán Cárdenas</desc>
+  <defs>
+    <linearGradient id="gold" x1="42" y1="44" x2="216" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6df86"/>
+      <stop offset="0.55" stop-color="#d6b35c"/>
+      <stop offset="1" stop-color="#b88928"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="83" y1="58" x2="176" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7d2"/>
+      <stop offset="1" stop-color="#f4e4a2"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="128" fill="#0b1016"/>
+  <circle cx="128" cy="128" r="111" fill="#121820" stroke="#d6b35c" stroke-opacity="0.32" stroke-width="4"/>
+  <path d="M72 105c29 16 54 14 78-6 14-11 33-11 47 0 24 20 49 22 78 6" transform="translate(-45 0)" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M128 52c-17 23-17 43 0 63 17-20 17-40 0-63Z" fill="url(#cream)"/>
+  <line x1="128" y1="89" x2="128" y2="174" stroke="url(#cream)" stroke-width="7" stroke-linecap="round"/>
+  <line x1="57" y1="105" x2="38" y2="163" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+  <line x1="57" y1="105" x2="76" y2="163" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M26 166h62c-4 17-14 25-31 25s-27-8-31-25Z" fill="url(#gold)"/>
+  <line x1="199" y1="105" x2="180" y2="163" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+  <line x1="199" y1="105" x2="218" y2="163" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M168 166h62c-4 17-14 25-31 25s-27-8-31-25Z" fill="url(#gold)"/>
+  <circle cx="57" cy="105" r="8" fill="url(#gold)"/>
+  <circle cx="199" cy="105" r="8" fill="url(#gold)"/>
+  <text x="128" y="169" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700" fill="url(#cream)" letter-spacing="-3">AC</text>
+</svg>

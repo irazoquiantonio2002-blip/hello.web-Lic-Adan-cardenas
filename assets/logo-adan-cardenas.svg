@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 512" role="img" aria-labelledby="title desc">
+  <title id="title">Lic. Adán Cárdenas</title>
+  <desc id="desc">Logo de Lic. Adán Cárdenas, especialista de lo familiar desde 1997</desc>
+  <defs>
+    <linearGradient id="gold" x1="122" y1="86" x2="650" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6df86"/>
+      <stop offset="0.45" stop-color="#d6b35c"/>
+      <stop offset="1" stop-color="#b88928"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="254" y1="128" x2="496" y2="356" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7d2"/>
+      <stop offset="1" stop-color="#f4e4a2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="760" height="512" rx="0" fill="#11161d"/>
+  <circle cx="380" cy="224" r="178" fill="#171d25"/>
+  <circle cx="380" cy="224" r="142" fill="none" stroke="#2a3038" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <path d="M224 196c42 22 79 19 114-8 20-15 48-15 68 0 35 27 72 30 114 8" fill="none" stroke="url(#gold)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M380 116c-28 36-27 66 0 98 27-32 28-62 0-98Z" fill="url(#cream)"/>
+    <line x1="380" y1="178" x2="380" y2="338" stroke="url(#cream)" stroke-width="12" stroke-linecap="round"/>
+    <line x1="210" y1="198" x2="170" y2="322" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="210" y1="198" x2="250" y2="322" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M146 326h128c-7 31-29 47-64 47s-57-16-64-47Z" fill="url(#gold)"/>
+    <line x1="550" y1="198" x2="510" y2="322" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="550" y1="198" x2="590" y2="322" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M486 326h128c-7 31-29 47-64 47s-57-16-64-47Z" fill="url(#gold)"/>
+    <circle cx="210" cy="198" r="14" fill="url(#gold)"/>
+    <circle cx="550" cy="198" r="14" fill="url(#gold)"/>
+  </g>
+
+  <text x="380" y="304" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="118" font-weight="700" fill="url(#cream)" letter-spacing="-4">AC</text>
+  <text x="380" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" fill="url(#gold)">Lic. Adán Cárdenas</text>
+  <text x="380" y="456" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#f4e4a2" letter-spacing="2">ESPECIALISTA DE LO FAMILIAR DESDE 1997</text>
+</svg>
